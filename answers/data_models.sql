@@ -1,3 +1,7 @@
+-- For data modeling providing DDL. For wx_data adding year, month and day in table to make sure
+-- query can be used on those fields. We could get these from wx_date but manipulation might take some computing.
+-- Here computing v/s storage I felt storage is cheaper option.
+
 -- wx_data definition
 
 CREATE TABLE wx_data(
