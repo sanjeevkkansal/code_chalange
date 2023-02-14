@@ -136,4 +136,4 @@ def get_weather_stats():
 
 
 if __name__ == '__main__':
-    app.run(port=5001)
+    app.run(port=config.FLASK_PORT)
